@@ -1,0 +1,387 @@
+# 📘 MANUAL RÁPIDO - COMO CAPTURAR E ORGANIZAR OS PRINTS
+
+## 🎬 PASSO A PASSO PARA CAPTURAR OS PRINTS
+
+### PREPARAÇÃO
+1. Abra PowerShell ou CMD
+2. Navegue até: `cd d:\Users\2024122760199\Downloads\lab7`
+3. Execute: `python lab7.py`
+4. Tenha o Print Screen Tool aberto (ou use Snipping Tool)
+
+---
+
+## 📸 SEQUÊNCIA DE CAPTURA
+
+### PRINT 1: Menu Principal
+**Ação:** Executar o programa
+```
+python lab7.py
+```
+**O que capturar:** A tela com o menu e as 4 opções
+
+**Dados no print:**
+- Menu centralizado
+- [1] Exibir Dashboard...
+- [2] Buscar Conhecimento
+- [3] Adicionar Novo Conhecimento
+- [4] Sair
+- Cursor aguardando entrada
+
+**Legenda para PDF:**
+"Tela inicial do sistema mostrando o menu principal com 4 opções de navegação."
+
+---
+
+### PRINT 2: Dashboard de Popularidade
+**Ação:** Digitar `1` e pressionar Enter
+```
+Escolha uma opção: 1
+```
+**O que capturar:** O dashboard com as 3 barras visuais
+
+**Dados no print:**
+- Cabeçalho: "DASHBOARD DE POPULARIDADE DO CONHECIMENTO"
+- ID | TÍTULO | POPULARIDADE
+- Linha 1: "1 | Acesso VPN | ████████████████████████████████████████ 120"
+- Linha 2: "2 | Backup SQL | ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 45"
+- Linha 3: "3 | Lentidão ERP | ██████████████████░░░░░░░░░░░░░░░░░░░░░░░ 89"
+
+**Legenda para PDF:**
+"Dashboard visual mostrando barras proporcionais de popularidade. O Acesso VPN é 
+o conhecimento mais acessado (120 acessos), seguido por Lentidão ERP (89) e 
+Backup SQL (45)."
+
+---
+
+### PRINT 3: Menu Novamente (após dashboard)
+**Ação:** Pressionar Enter ou esperar retorno ao menu
+
+**O que capturar:** Menu aparecendo novamente
+
+**Dados no print:**
+- Menu principal aparecendo novamente
+
+**Legenda para PDF:**
+"Sistema retorna ao menu após exibição do dashboard."
+
+---
+
+### PRINT 4: Busca Sem Resultado - Digite Opção
+**Ação:** Digitar `2` para buscar
+```
+Escolha uma opção: 2
+```
+**O que capturar:** A pergunta "Digite o termo para buscar:"
+
+**Dados no print:**
+- "Digite o termo para buscar:"
+- Cursor aguardando entrada
+
+**Legenda para PDF:**
+"Usuário seleciona a opção de buscar (2). Sistema pergunta qual termo deseja buscar."
+
+---
+
+### PRINT 5: Busca Sem Resultado - Digite Termo
+**Ação:** Digitar `Azul` (termo inexistente)
+```
+Digite o termo para buscar: Azul
+```
+**O que capturar:** A resposta "✗ Nenhum resultado encontrado para essa busca."
+
+**Dados no print:**
+- "Digite o termo para buscar: Azul"
+- "✗ Nenhum resultado encontrado para essa busca."
+- Menu reaparece
+
+**Legenda para PDF:**
+"Demonstração de busca case-insensitive. Ao buscar por 'Azul', o sistema não 
+encontra resultados (pois nenhum artigo contém este termo). A busca é 
+case-insensitive, portanto se houvesse um artigo com 'AZUL' em maiúsculas, 
+seria encontrado."
+
+---
+
+### PRINT 6: Adicionar Conhecimento - Digite Opção
+**Ação:** Digitar `3` para adicionar
+```
+Escolha uma opção: 3
+```
+**O que capturar:** A interface de adição
+
+**Dados no print:**
+- "ADICIONAR NOVO CONHECIMENTO"
+- "Digite o título do conhecimento:"
+- Cursor aguardando entrada
+
+**Legenda para PDF:**
+"Usuário seleciona opção (3) para adicionar novo conhecimento. Sistema mostra 
+formulário com solicitação de título."
+
+---
+
+### PRINT 7: Adicionar - Digite Título
+**Ação:** Digitar um título (ex: `Configuração de Firewall`)
+```
+Digite o título do conhecimento: Configuração de Firewall
+```
+**O que capturar:** O título digitado e a pergunta sobre conteúdo
+
+**Dados no print:**
+- Título inserido
+- "Digite o conteúdo do conhecimento:"
+- Cursor aguardando
+
+**Legenda para PDF:**
+"Usuário digita o título do novo conhecimento: 'Configuração de Firewall'."
+
+---
+
+### PRINT 8: Adicionar - Digite Conteúdo
+**Ação:** Digitar conteúdo (ex: `Aplicar regras de entrada no Windows Firewall...`)
+```
+Digite o conteúdo do conhecimento: Aplicar regras de entrada no Windows Firewall...
+```
+**O que capturar:** O conteúdo digitado e as mensagens de sucesso
+
+**Dados no print:**
+- Conteúdo inserido
+- "✓ Conhecimento adicionado com sucesso! (ID: 4)"
+- "✓ Dados salvos com sucesso em 'base_conhecimento.json'"
+- Menu retorna
+
+**Legenda para PDF:**
+"Novo conhecimento adicionado com sucesso. Sistema:
+1. Atribui automaticamente ID: 4
+2. Inicializa acessos em 0
+3. Salva dados no arquivo JSON
+4. Confirma com mensagem de sucesso"
+
+---
+
+### PRINT 9: Busca Com Resultado - Digite Opção
+**Ação:** Digitar `2` para buscar novamente
+```
+Escolha uma opção: 2
+```
+**O que capturar:** A pergunta sobre o termo de busca
+
+**Dados no print:**
+- "Digite o termo para buscar:"
+- Cursor aguardando
+
+**Legenda para PDF:**
+"Usuário busca novamente após adicionar novo conhecimento."
+
+---
+
+### PRINT 10: Busca Com Resultado - Digite Termo
+**Ação:** Digitar `Firewall` (término do título adicionado)
+```
+Digite o termo para buscar: Firewall
+```
+**O que capturar:** O resultado da busca
+
+**Dados no print:**
+- "✓ 1 resultado(s) encontrado(s):"
+- "ID: 4"
+- "Título: Configuração de Firewall"
+- "Conteúdo: Aplicar regras de entrada no Windows Firewall..."
+- "Acessos: 0"
+
+**Legenda para PDF:**
+"Busca case-insensitive funciona. O novo artigo adicionado é encontrado com sucesso. 
+Confirma que:
+1. Persistência funcionou (artigo foi salvo)
+2. Busca é case-insensitive (funciona com 'Firewall' em maiúscula)
+3. Dados são recuperáveis"
+
+---
+
+### PRINT 11: Busca em Artigo Pré-existente
+**Ação:** Digitar `2` novamente e depois `VPN`
+```
+Escolha uma opção: 2
+Digite o termo para buscar: VPN
+```
+**O que capturar:** O artigo pré-existente sendo encontrado
+
+**Dados no print:**
+- "✓ 1 resultado(s) encontrado(s):"
+- "ID: 1"
+- "Título: Acesso VPN"
+- "Conteúdo: Usar o cliente Cisco AnyConnect..."
+- "Acessos: 120"
+
+**Legenda para PDF:**
+"Validação da busca em conhecimentos pré-existentes. Confirma que o sistema 
+carrega e busca corretamente na base inicial."
+
+---
+
+### PRINT 12: Dashboard Atualizado
+**Ação:** Digitar `1` para ver o dashboard atualizado
+```
+Escolha uma opção: 1
+```
+**O que capturar:** O dashboard com 4 artigos agora
+
+**Dados no print:**
+- "DASHBOARD DE POPULARIDADE DO CONHECIMENTO"
+- 4 linhas de artigos (incluindo o novo)
+- Novo artigo (ID: 4) com 0 acessos (sem barra preenchida)
+
+**Legenda para PDF:**
+"Dashboard atualizado após adição do novo conhecimento. Mostra:
+- Os 3 artigos originais com suas barras proporcionais
+- Novo artigo (ID: 4) com 0 acessos
+- Máximo recalculado é 120 acessos (Acesso VPN)"
+
+---
+
+### PRINT 13: Encerramento
+**Ação:** Digitar `4` para sair
+```
+Escolha uma opção: 4
+```
+**O que capturar:** A mensagem de saída
+
+**Dados no print:**
+- "✓ Sistema encerrado. Até logo!"
+- Retorno ao prompt do PowerShell/CMD
+
+**Legenda para PDF:**
+"Sistema encerrado com sucesso. Dados foram persistidos no arquivo JSON para 
+próxima execução."
+
+---
+
+## 📋 CHECKLIST VISUAL
+
+```
+✅ PRINT 1: Menu Principal
+✅ PRINT 2: Dashboard (3 artigos)
+✅ PRINT 3: Menu (retorno após dashboard)
+✅ PRINT 4: Busca - pergunta termo
+✅ PRINT 5: Busca - sem resultado (Azul)
+✅ PRINT 6: Adicionar - input título
+✅ PRINT 7: Adicionar - input conteúdo
+✅ PRINT 8: Adicionar - sucesso e salvamento
+✅ PRINT 9: Busca - pergunta termo (novamente)
+✅ PRINT 10: Busca - com resultado (Firewall)
+✅ PRINT 11: Busca - artigo pré-existente (VPN)
+✅ PRINT 12: Dashboard Atualizado (4 artigos)
+✅ PRINT 13: Encerramento
+```
+
+---
+
+## 🖥️ FERRAMENTAS PARA CAPTURAR PRINTS
+
+### Windows Built-in
+- **Print Screen Key:** Copia tela para clipboard, depois colar no Paint
+- **Shift + Print Screen:** Seleciona área específica
+- **Snipping Tool:** Iniciar → Snipping Tool
+- **Screenshot Tool:** Windows + Shift + S
+
+### Recomendado
+- **Snipping Tool:** Muito prático para selecionar apenas a janela
+- **Greenshot:** Ferramenta gratuita específica para screenshots
+
+### Passos com Snipping Tool
+1. Abra Snipping Tool
+2. Clique "New"
+3. Selecione a área desejada (a janela do terminal)
+4. Salve como PNG
+5. Cole em seu documento
+
+---
+
+## 📝 TEMPLATES DE LEGENDA
+
+### Para Tarefa 1 (Busca)
+"**Print X - Busca de Conhecimento (Camada de Lógica)**
+
+Demonstração da Tarefa 1: Implementar Filtro de Busca. O sistema realiza busca 
+case-insensitive no título e conteúdo dos artigos de conhecimento utilizando 
+List Comprehension. Quando nenhum resultado é encontrado, exibe mensagem clara 
+'Nenhum resultado encontrado para essa busca'."
+
+### Para Tarefa 2 (Dashboard)
+"**Print X - Dashboard de Popularidade (Camada de Apresentação)**
+
+Demonstração da Tarefa 2: Dashboard visual com barras proporcionais. Cada artigo 
+é representado por uma barra (█) preenchida proporcionalmente aos acessos. O artigo 
+com maior número de acessos tem barra completa, e outros são proporcionais. Fácil 
+de ler e interpretar visualmente."
+
+### Para Tarefa 3 (Dados)
+"**Print X - Persistência de Dados (Camada de Dados)**
+
+Demonstração da Tarefa 3: Salvamento de dados em arquivo JSON. Sistema confirma 
+persistência com mensagem 'Dados salvos com sucesso em base_conhecimento.json'. 
+Dados podem ser recuperados em próxima execução."
+
+### Para Tarefa 4 (Colaboração)
+"**Print X - Adicionar Novo Conhecimento (Módulo de Colaboração)**
+
+Demonstração da Tarefa 4: Usuário adiciona novo artigo de conhecimento durante 
+execução do sistema. Sistema valida entrada, gera novo ID automaticamente (ID: 4), 
+e salva os dados imediatamente."
+
+---
+
+## 💾 ARQUIVO JSON COMO EVIDÊNCIA
+
+### Para incluir no PDF:
+
+**Conteúdo do arquivo base_conhecimento.json após execução:**
+
+```json
+[
+    {
+        "id": 1,
+        "titulo": "Acesso VPN",
+        "conteudo": "Usar o cliente Cisco AnyConnect...",
+        "acessos": 120
+    },
+    {
+        "id": 2,
+        "titulo": "Backup SQL",
+        "conteudo": "Os scripts rodam diariamente às 02h...",
+        "acessos": 45
+    },
+    {
+        "id": 3,
+        "titulo": "Lentidão ERP",
+        "conteudo": "Pausar o serviço 'Backup_Sync' no console.",
+        "acessos": 89
+    },
+    {
+        "id": 4,
+        "titulo": "Configuração de Firewall",
+        "conteudo": "Aplicar regras de entrada no Windows Firewall...",
+        "acessos": 0
+    }
+]
+```
+
+**Legenda:**
+"Arquivo base_conhecimento.json após execução do sistema. Contém os 3 artigos 
+iniciais e o novo artigo (ID: 4) adicionado durante a execução. Comprova 
+persistência e preservação de dados em formato JSON com encoding UTF-8."
+
+---
+
+## ✨ DICAS FINAIS
+
+✅ Mantenha os prints em boa resolução (não comprima demais)
+✅ Recorte apenas a área relevante (sem muita barra de título do Windows)
+✅ Organize em ordem cronológica de execução
+✅ Cada print deve representar um passo específico
+✅ Legenda clara explicando o que é demonstrado
+✅ Valide que cada print valida um critério de avaliação
+
+---
+
+**Pronto para capturar os prints! 📸**

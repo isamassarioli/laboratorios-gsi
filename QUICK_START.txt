@@ -1,0 +1,88 @@
+# ⚡ QUICK START - 5 MINUTOS
+
+## 🚀 Começar Agora!
+
+### PASSO 1: Executar o Sistema (1 minuto)
+```bash
+cd d:\Users\2024122760199\Downloads\lab7
+python lab7.py
+```
+
+### PASSO 2: Testar Fluxos (2 minutos)
+Siga a sequência no arquivo **MANUAL_PRINTS.txt**
+
+### PASSO 3: Capturar Prints (3+ minutos)
+Use Print Screen ou Snipping Tool para capturar as 13 telas
+
+### PASSO 4: Criar PDF
+Copie o **TEMPLATE_PDF.md** para seu editor e adicione os prints
+
+---
+
+## 📋 O QUE VOCÊ PRECISA SABER
+
+### ✅ Sistema Já Está Pronto
+- Código completo: **lab7.py**
+- Sem erros: ✅ Testado
+- Todas as 4 tarefas: ✅ Implementadas
+
+### ✅ Documentação Completa
+- **RESUMO_FINAL.md** - Visão geral
+- **TEMPLATE_PDF.md** - Pronto para PDF
+- **MANUAL_PRINTS.txt** - Guia de capturas
+- **EVIDENCIAS_EXECUCAO.md** - Prints documentados
+
+### ✅ Dados Persistidos
+- **base_conhecimento.json** - 4 artigos salvos
+
+---
+
+## 📸 PRÓXIMO PASSO: CAPTURAR PRINTS
+
+### Sequência Rápida
+
+1. Execute: `python lab7.py`
+2. Digite: `1` → Capture dashboard
+3. Digite: `2` → Digite "Azul" → Capture sem resultado
+4. Digite: `3` → Adicione conhecimento → Capture tudo
+5. Digite: `2` → Digite "Firewall" → Capture resultado
+6. Digite: `1` → Capture novo dashboard
+7. Digite: `4` → Capture encerramento
+
+### Total de Prints Importantes: 9-13
+
+---
+
+## 📄 CRIAR PDF EM 3 PASSOS
+
+1. **Copiar** conteúdo de **TEMPLATE_PDF.md**
+2. **Adicionar** os prints capturados
+3. **Salvar** como: `Laboratorio_7_NomesDosAlunos.pdf`
+
+---
+
+## ✅ VALIDAÇÃO FINAL
+
+Antes de entregar, confirme:
+- [ ] Código executa sem erros
+- [ ] Busca é case-insensitive
+- [ ] Dashboard exibe barras visuais
+- [ ] Dados salvam em JSON
+- [ ] PDF tem bom nome: `Laboratorio_7_NomesDosAlunos.pdf`
+- [ ] PDF entregue até 23/04/2026
+
+---
+
+## 🎯 RESUMO
+
+| Item | Status |
+|------|--------|
+| Código | ✅ PRONTO |
+| Documentação | ✅ PRONTO |
+| Dados | ✅ PRONTO |
+| Prints | ⏳ EM PROGRESSO |
+| PDF | ⏳ A FAZER |
+
+---
+
+**Tudo preparado! Vamos capturar os prints?** 📸
